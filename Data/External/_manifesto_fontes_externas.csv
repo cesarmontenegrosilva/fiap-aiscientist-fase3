@@ -1,0 +1,3 @@
+﻿fonte,ano,arquivo,chave_integracao,uso,processado_em
+INEP - Censo Escolar 2023,2023,G:\Meu Drive\FIAP\AI_Scientist\Fase3\techallenge1\Data\External\Censo_Escolar\processed\censo_escolar_2023_municipios.csv,codigo_municipio,Infraestrutura e contexto educacional municipal,2026-09-14T19:38:56
+IBGE - Censo 2022 / SIDRA / Localidades,2022,G:\Meu Drive\FIAP\AI_Scientist\Fase3\techallenge1\Data\External\IBGE\processed\ibge_municipios_2022.csv,codigo_municipio,"População, urbanização, PIB, PIB per capita e atributos territoriais",2026-09-14T19:38:56

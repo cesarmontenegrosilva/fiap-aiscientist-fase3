@@ -1,0 +1,85 @@
+# ==============================
+# Python / virtual environments
+# ==============================
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# ==============================
+# Jupyter / IDE / OS
+# ==============================
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Environment / secrets
+# ==============================
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+service-account*.json
+
+# ==============================
+# Logs / temporary files
+# ==============================
+*.log
+logs/
+Data/logs/
+*.tmp
+*.temp
+~$*
+
+# ==============================
+# Large / raw datasets
+# Keep source code, reports and images in Git;
+# regenerate large data artifacts locally.
+# ==============================
+Data/Bronze/
+Data/Silver/
+Data/External/**/raw/
+Data/External/**/extracted/
+
+# Original archives and spreadsheets
+*.zip
+*.7z
+*.rar
+
+# ==============================
+# Serialized ML artifacts
+# ==============================
+Data/models/*.joblib
+Data/models/*.pkl
+Data/models/*.pickle
+*.joblib
+*.pkl
+*.pickle
+
+# ==============================
+# Local exports / Office temp
+# ==============================
+*.bak
+*.swp
+*.swo
+
+# Keep documentation and analytical outputs
+!README.md
+!MODEL_CARD.md
+!Data/reports/
+!Data/reports/**
+!Data/images/
+!Data/images/**

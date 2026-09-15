@@ -1,0 +1,9 @@
+{
+  "modelo_original": "logistic_regression",
+  "feature_removida": "sigla_uf",
+  "features_restantes": 30,
+  "delta_pr_auc": -0.018029998124641122,
+  "delta_roc_auc": -0.008634270115564502,
+  "delta_balanced_accuracy": 0.014640980314345131,
+  "interpretacao": "Queda pequena: o modelo não depende fortemente de sigla_uf."
+}

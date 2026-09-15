@@ -1,0 +1,7 @@
+{
+  "executado": true,
+  "modelo": "logistic_regression",
+  "amostras_explicadas": 150,
+  "features_transformadas": 56,
+  "mensagem": "SHAP executado com sucesso após o pré-processamento. A interpretação principal foi agregada novamente para as features originais."
+}

@@ -1,0 +1,8 @@
+.venv/
+venv/
+__pycache__/
+*.pyc
+Bronze/*.csv
+Bronze/_originais/*
+Silver/*.csv
+logs/*.log

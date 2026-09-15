@@ -1,0 +1,2 @@
+﻿accuracy,balanced_accuracy,precision_risco,recall_risco,f1_risco,roc_auc,pr_auc,modelo,best_params
+0.566,0.5651719037483315,0.5448851774530271,0.5471698113207547,0.5460251046025104,0.6112694461480492,0.5651118863491734,logistic_regression,"{""model__C"": 0.18329807108324356}"
