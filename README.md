@@ -38,43 +38,6 @@ O projeto também busca responder perguntas analíticas como:
 ---
 
 ## 2. Arquitetura da solução
-
-```text
-                 DATA / GOLD
-                     +
-              FONTES EXTERNAS
-               /           \
-      Censo Escolar        IBGE
-               \           /
-                    ↓
-          DATASET DE MODELAGEM
-                    ↓
-          CONTROLE DE LEAKAGE
-                    ↓
-                   EDA
-                    ↓
-        TRAIN / VALIDATION / TEST
-                    ↓
-             PREPROCESSING
-                    ↓
-       ┌────────────┼────────────┐
-       ↓            ↓            ↓
-   Logistic      Random      HistGradient
-  Regression      Forest       Boosting
-       └────────────┼────────────┘
-                    ↓
-         CROSS VALIDATION
-                    ↓
-              BEST MODEL
-             /     |      \
-            ↓      ↓       ↓
-       Métricas   SHAP   Predições
-                            ↓
-                   Risco por aluno
-                            ↓
-                   Risco por município
-                            ↓
-                 POLÍTICA PÚBLICA
 ```
 
 Versão Mermaid:
