@@ -38,7 +38,6 @@ O projeto também busca responder perguntas analíticas como:
 ---
 
 ## 2. Arquitetura da solução
-```
 
 Versão Mermaid:
 
