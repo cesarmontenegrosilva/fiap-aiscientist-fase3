@@ -2,7 +2,7 @@
 
 Aluno: Augusto César Monteegro e Silva
 
-Link para o video: 
+Link para o video: https://youtu.be/IsWGMnY1yAA
 
 ## Predição e Inteligência Analítica para Alfabetização no Brasil
 
